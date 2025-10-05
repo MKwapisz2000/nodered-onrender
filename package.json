@@ -1,0 +1,11 @@
+{
+  "name": "nodered-onrender",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --no-update-notifier node_modules/node-red/red.js -p $PORT -u ."
+  },
+  "dependencies": {
+    "node-red": "^3.1.9"
+  }
+}

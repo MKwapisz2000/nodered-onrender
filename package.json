@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node node_modules/node-red/red.js -u /data -p $PORT"
+    "start": "node node_modules/node-red/red.js -u /data -s ./settings.js -p $PORT"
   },
   "dependencies": {
     "node-red": "^3.1.9",
